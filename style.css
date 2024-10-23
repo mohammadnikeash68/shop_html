@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('assets/fonts/BYekan.woff2') format('woff2'),
+    url('assets/fonts/BYekan.woff') format('woff'),
+    url('assets/fonts/Yekan.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Yekan';
+    background-color: #eee;
+}
+header{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 5px  darkgrey;
+
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.main-nav .nav-right{
+    display: flex;
+}
+.main-nav .nav-right ul{
+    display: flex;
+}
+.main-nav .nav-right ul li{
+    padding-right: 20px;
+}
+.main-nav .nav-right ul li a{
+    font-size: 1.1rem;
+    color: darkgray;
+
+}
+.main-nav .nav-right ul li a:hover{
+    border-bottom: 2px solid darkgoldenrod;
+}
+.main-nav .nav-left{}
+.main-nav .nav-left a{
+    color: darkgray;
+    padding-right: 20px;
+    font-size: 1.1rem;
+}
+.main-nav .nav-left a i{
+    padding: 10px;
+    transition: all 0.6s ease;
+}
+.main-nav .nav-left a i:hover{
+    background-color: darkslategray;
+    border-radius: 30px;
+    color: white;
+}
+
+.swiper-slide{
+    background-image: url("assets/img/slide1-1.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex !important;
+    align-items: center;
+    height: 500px !important;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+.wrap-desc{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 100px;
+}
+.wrap-desc{
+    color:#fff;
+    line-height: 100px;
+}
+.wrap-desc h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.wrap-desc p{
+    font-size: 25px;
+}
+.btn-slider{
+    width: 70px;
+    padding: 20px;
+}
+
